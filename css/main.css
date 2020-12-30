@@ -13,3 +13,45 @@ background-color: darkgray;
 .navbar-nav {
     font-size: 20px;
 }
+.contact{
+
+ background-image: url(img/overlay-bg.jpg);
+  background-size: cover;
+}
+.layer
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.get{
+    margin-bottom: 2px;
+}
+.item
+{
+
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+
+
+}
+
+
+
+
+.item-layer{
+position: absolute;
+top: 0;
+left: 0;
+transform: translateY();
+transition: transfrom 1s;
+background-color: rgba(red, green, blue, alpha);
+opacity: 0;
+}
+.item-layer :hover .item
+{
+
+}
