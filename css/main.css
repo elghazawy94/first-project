@@ -55,3 +55,51 @@ opacity: 0;
 {
 
 }
+
+ /* // Style Section 4 */
+.section4 {
+    width: 95%;
+    text-align: center;
+    margin: 50px auto;
+}
+.section4 p{
+    padding-bottom: 30px;
+}
+h1{
+    padding-top: 30px;
+    font-family: "Alegreya";
+}
+.food{   
+    width:33.33%;
+    float: left;
+    font-size: 17px;
+}
+.food img{
+    width:90%;
+}
+.food p, h3{
+    padding-top: 10px;
+    line-height: 30px;
+    margin: 10px;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .food{
+        width:33.33%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .food{
+        width:50%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:767px){
+    .food{
+        width:100%;
+    }
+    .food p{
+        width: 100%;
+    }
+    .section4 p , h1 {
+        width: 100%;
+    }
+}
